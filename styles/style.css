@@ -1,0 +1,37 @@
+body {
+    font-family:monospace;
+    background-color: #1C1A27;
+    color: #D0BCFF;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+button {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #D0BCFF;
+    background-color: #373247;
+    font-size: 20px;
+    border-radius: 12px;
+    border-color: #D0BCFF;
+    width: 80px;
+    height: 40px;
+}
+
+.container {
+    position: relative;
+
+}
+
+.box-container {
+    padding: 20px;
+    margin: 0;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    -ms-transform: translate(-50%, 30%);
+    transform: translate(-50%, 30%);
+    border: 1px solid #D0BCFF;
+}
